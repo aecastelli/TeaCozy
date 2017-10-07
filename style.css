@@ -1,0 +1,129 @@
+body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: black;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+}
+
+/*header*/
+header {
+  background-color: black;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 1;
+  border-bottom: 1px solid seashell;
+  height: 69px;
+  width: 100%
+}
+
+header img {
+  height: 50px;
+}
+
+.logo {
+  padding: 9.5px 0px 9.5px 10px;
+}
+
+
+.navigation {
+  padding-right: 10px;
+}
+
+.navigation span {
+  padding-right: 20px;
+}
+
+a {
+  color: seashell;
+  text-decoration: underline;
+}
+
+/*mission statement*/
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 69px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+}
+
+.statement {
+  background-color: black;
+  text-align: center;
+  width: 1200px;
+}
+
+/*tea of the month/featured teas*/
+.features {
+  padding-top: 30px;
+}
+
+.features h2,
+.features h4 {
+  text-align: center;
+}
+
+.tea img {
+  height: 200px;
+  width: 300px;
+}
+
+.toprow,
+.botrow,
+.locationrow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.tea {
+  padding: 0px 15px;
+}
+
+/*locations*/
+.locations {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  height: 550px;
+  width: 1200px;
+}
+
+.locations h2 {
+  padding-top: 30px;
+  text-align: center;
+}
+
+
+.neighborhood {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  height: 250px;
+  width: 300px;
+  margin: 0 20px;
+  padding: 30px 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+/*footer*/
+footer {
+  height: auto;
+  width: 100%;
+}
+
+.contact {
+  text-align: center;
+  height: 200px;
+}
+
+.copyright {
+  margin-left: 20px;
+}
